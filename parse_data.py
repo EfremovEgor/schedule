@@ -13,7 +13,7 @@ def download_schedule(
     base_url = "https://esystem.rudn.ru"
     if not validators.url(base_url):
         raise Exception("Invalid url")
-    response = requests.get("https://esystem.rudn.ru/faculty/ia/raspisanie")
+    response = requests.get(schedule_url)
     if response.status_code != 200:
         raise Exception("Page doesn't response")
     html = response.text
