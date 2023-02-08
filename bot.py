@@ -8,7 +8,7 @@ import asyncio
 import aioschedule
 import parse_schedule as ps
 
-TOKEN = "6169975124:AAFoc4LiUZryQLpNIi-Wceq7kfpVC0rAciw"
+TOKEN = ""
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
