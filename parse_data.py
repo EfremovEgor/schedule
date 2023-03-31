@@ -18,7 +18,7 @@ class InvalidUrlException(Exception):
 
 def download_schedule(
     base_url: str = "https://esystem.rudn.ru",
-    schedule_url: str = "https://esystem.rudn.ru/faculty/ia/raspisanie",
+    schedule_url: str = "https://esystem.rudn.ru/faculty/ia/raspisanie-dnevnoi-formy-obucheniya",
     folder_path="downloads\\",
     downloaded_file_name="new_schedule",
 ):
